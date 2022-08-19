@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body,
 h1,
 h2,
@@ -15,7 +16,6 @@ p {
   margin: 0;
   padding: 0;
 }
-
 
 .hero {
   background: #f7f7f9;
