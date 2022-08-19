@@ -1,54 +1,29 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Portfolio
+# Portfolio Project
 
-> This project is a templer portfolio page prepared to exercie portfoli preparation in demo size.
+In this project, I set up my portfolio repository. My goal here is to set up and add some customizationto  the first sections of my portfolio.
 
+- ![screenshot](/images/mobile1.png)
+- ![screenshot](/images/mobil2.png)
+- ![screenshot](/images/mobile3.png)
+## :hammer: Built With
 
-## Built With
+- HTML and CSS
+- FIGMA GIT GITHUB
+## :blue_book: Learning Objectives
 
-- HTML CSS
-- VScode FIGMA
-- GIT GITHUB
+- Understand how to parse a Figma design to create a UI.
+- Flexbox to place elements in the page.
+- Build a personal portfolio site.
+- Use images and backgrounds to enhance the look of the website.
 
+## Authors
 
-To get a local copy up and running follow these simple example steps.
+👤 **JUHAR YIMER**
 
-### Prerequisites
--
-### Setup
-- install visual studio and git
-### Install
-- git clone https://github.com/juaryimami/Hello-Microverse.git
-### Usage
-
-### Run tests
-- run the code from the editor or press ctr+f5
-### Deployment
-
-
-
-👤 **Author**
-
--JUHAR YIMER
-- GitHub: [@githubhandle](https://github.com/juaryimami)
-- Twitter: [@twitterhandle](https://twitter.com/@juhar63557116)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+- GitHub: [@ArthurGC](https://github.com/ArthurGC)
 
 ## Acknowledgments
 
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+- Thanks to all of my coding partners
