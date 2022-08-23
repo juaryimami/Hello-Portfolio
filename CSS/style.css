@@ -154,7 +154,6 @@ p {
   -webkit-animation-duration: 0.8s;
   animation-duration: 0.8s;
   transition: background 0.8s ease-in-out, color 0.8s ease-in-out;
-  align-items: center;
 }
 
 .btn:hover {
@@ -404,8 +403,6 @@ p {
 }
 
 .contact {
-  display: flex;
-  justify-content: center;
   position: relative;
   padding: 6.4375rem 1.5rem 1.5rem;
   z-index: 10;
