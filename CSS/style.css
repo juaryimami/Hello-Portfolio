@@ -154,6 +154,7 @@ p {
   -webkit-animation-duration: 0.8s;
   animation-duration: 0.8s;
   transition: background 0.8s ease-in-out, color 0.8s ease-in-out;
+  align-items: center;
 }
 
 .btn:hover {
@@ -403,11 +404,12 @@ p {
 }
 
 .contact {
-  position: relative;
+  display: flex;
   padding: 6.4375rem 1.5rem 1.5rem;
   z-index: 10;
   display: flex;
   flex-direction: column;
+  align-content: center;
   align-items: center;
 }
 
@@ -426,8 +428,8 @@ p {
   width: 100%;
   border-radius: 8px;
   background: #fff;
-  align-items: center;
-  align-content: center;
+  display: flex;
+  justify-content: center;
   border: 1px solid #cfd8dc;
   margin: 10px 0;
   height: 48px;
@@ -451,7 +453,7 @@ p {
   height: 48px;
   padding: 12px;
   border-radius: 8px;
-  align-items: center;
+  justify-content: center;
   color: #6070ff;
   cursor: pointer;
   margin: 18px 0;
