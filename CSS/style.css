@@ -427,6 +427,7 @@ p {
   border-radius: 8px;
   background: #fff;
   align-items: center;
+  align-content: center;
   border: 1px solid #cfd8dc;
   margin: 10px 0;
   height: 48px;
