@@ -204,18 +204,30 @@
 			</li>
 		</ul>
 	  </section>
-	 <footer class="footer">
-		 <h1 class="contact__me">Contact me</h1>
-		 <p class="cantact__me__parag">If you have an application you are interested in 
+	  <footer class="contact">
+		  <div class="contact__container">
+		 <h2 class="contact__title fw-700 fz-40 ">Contact me</h1>
+		 <p class="cantact__dsc fw-500 fz-20 lh28">If you have an application you are interested in 
 			 developing, a feature that you need to build or a project 
 			 that needs coding.I would love to help with it.
 		 </p>
 		 <form action="https://formspree.io/f/xrgdbgjp" method="POST" class="contact__form">
-			 <input type="text" name="full-name" placeholder="juhar oumer seid" max="30">
-			 <input type="email" name="email" placeholder="juharoumer@gmail.com">
-			 <textarea name="message" id="" cols="30" rows="10" maxlength="500" placeholder="white your message here!"></textarea>
-			 <button type="submit" value="Get In Touch"></button>
+			<ul class="ul">
+				<li>
+					<input class="cntact__name fw-500 fz-17 lh-20" type="text" name="full-name" placeholder="juhar oumer seid" max="30">
+				</li>
+				<li>
+					<input type="email" name="email" placeholder="juharoumer@gmail.com" class="contact__email fw-500 fz-17 lh-20">
+				</li>
+				<li>
+					<textarea class="contact__message fw-500 fz-17 lh-20" name="message" id="" cols="30" rows="10" maxlength="500" placeholder="white your message here!"></textarea>
+				</li>
+				<li>
+					<button class="btn" type="submit" value="Get In Touch"></button>
+				</li>
+			</ul>
 		 </form>
+		</div>
 	 </footer>
     </div>
   </body>
