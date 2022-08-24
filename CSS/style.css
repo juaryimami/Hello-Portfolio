@@ -197,7 +197,11 @@ p {
 .navbar__menu {
   display: none;
 }
-
+.navbar__menu__ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .navbar__hamb {
   cursor: pointer;
 }
@@ -455,12 +459,16 @@ p {
   .navbar {
     padding: 1.5rem 8rem;
   }
-
+  
   .navbar__menu {
     display: flex;
-    flex-direction: row;
     align-items: center;
   }
+
+.navbar__menu__ul{
+  flex-direction: row;
+  align-items: center;
+}
 
   .navbar__menu__li {
     margin: 0 16px;
