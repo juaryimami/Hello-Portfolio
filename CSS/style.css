@@ -458,7 +458,6 @@ p {
 }
 
 @media (min-width: 992px) {
-  
   .navbar {
     padding: 1.5rem 8rem;
   }
@@ -468,10 +467,10 @@ p {
     align-items: center;
   }
 
-.navbar__menu__ul {
-  flex-direction: row;
-  align-items: center;
-}
+  .navbar__menu__ul {
+    flex-direction: row;
+    align-items: center;
+  }
 
   .navbar__menu__li {
     margin: 0 16px;
@@ -588,7 +587,6 @@ p {
   }
 }
 
-
 @media (min-width: 1440px) {
   .fz-40 {
     font-size: 48px;
@@ -648,4 +646,3 @@ p {
     padding-bottom: 7.9rem;
   }
 }
-
