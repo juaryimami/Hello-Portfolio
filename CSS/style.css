@@ -197,11 +197,13 @@ p {
 .navbar__menu {
   display: none;
 }
-.navbar__menu__ul{
+
+.navbar__menu__ul {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .navbar__hamb {
   cursor: pointer;
 }
@@ -456,6 +458,7 @@ p {
 }
 
 @media (min-width: 992px) {
+  
   .navbar {
     padding: 1.5rem 8rem;
   }
@@ -465,7 +468,7 @@ p {
     align-items: center;
   }
 
-.navbar__menu__ul{
+.navbar__menu__ul {
   flex-direction: row;
   align-items: center;
 }
