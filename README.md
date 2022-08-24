@@ -23,7 +23,7 @@ In this project, I set up my portfolio repository. My goal here is to set up and
 
 👤 **JUHAR YIMER**
 
-- GitHub: [@ArthurGC](https://github.com/ArthurGC)
+- GitHub: [@JUPAC](https://github.com/juaryimami)
 
 ## Acknowledgments
 
