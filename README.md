@@ -2,7 +2,7 @@
 
 # Portfolio Project
 
-In this project, I set up my portfolio repository. My goal here is to set up and add some customizationto  the first sections of my portfolio.
+In this project, I set up my portfolio repository. My goal here is to set up and add some customization TO  the last sections of my portfolio project. The main aim is the make the web page reponsive for disign. I make the pages to be responsive for differeng device screen.
 
 - ![screenshot](/images/mobile1.png)
 - ![screenshot](/images/mobil2.png)
@@ -12,12 +12,14 @@ In this project, I set up my portfolio repository. My goal here is to set up and
 
 - HTML and CSS
 - FIGMA GIT GITHUB
+- VISUAL STUDIO CODE 
 ## :blue_book: Learning Objectives
 
 - Understand how to parse a Figma design to create a UI.
 - Flexbox to place elements in the page.
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
+- The page designed for differnt screen device that makes this project different from the last one
 
 ## Authors
 
