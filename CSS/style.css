@@ -481,7 +481,7 @@ p {
   }
 
   .head::before {
-    background-image: url(../Image/Desktop-size-image/headline-background.svg);
+    background-image: url(../Image/desktop-size-image/headline-background.svg);
     padding: 6rem;
     border-bottom-left-radius: 8rem;
   }
@@ -557,7 +557,7 @@ p {
   }
 
   .contact::before {
-    background-image: url(../Image/Desktop-size-image/contact-bg.svg);
+    background-image: url(../Image/desktop-size-image/contact-bg.svg);
     padding: 1rem;
     border-top-left-radius: 8rem;
   }
