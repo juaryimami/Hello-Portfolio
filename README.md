@@ -22,6 +22,7 @@ also some animations are added in this branch
 - Use images and backgrounds to enhance the look of the website.
 - The page designed for differnt screen device that makes this project different from the last one
 - Understand how to use effect of animation and transition in a web page
+- Experiancing pair programming
 
 ## Authors
 
