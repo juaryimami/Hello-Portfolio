@@ -192,6 +192,12 @@ p {
 
 .navbar__link {
   color: #6070ff;
+  -webkit-animation-name: rotate-logo;
+  animation-name: rotate-logo;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .navbar__menu {
