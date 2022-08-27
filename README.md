@@ -13,7 +13,7 @@ also some animations are added in this branch
 
 - HTML and CSS
 - FIGMA GIT GITHUB
-- VISUAL STUDIO CODE 
+- VISUAL STUDIO CODE ggg
 ## :blue_book: Learning Objectives
 
 - Understand how to parse a Figma design to create a UI.
