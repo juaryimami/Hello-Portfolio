@@ -1,19 +1,22 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio Project
 
 In this project, I set up my portfolio repository. My goal here is to set up and add some customization TO  the last sections of my portfolio project. The main aim is the make the web page reponsive for disign. I make the pages to be responsive for different device screen and
-also some animations and transitions are added in this branch.
+also some animations and transitions are added in this branch. Lastly how to make our
+portfolio accessible by deployint into github pages.
 
 - ![screenshot](Image/mobile1.png)
 - ![screenshot](Image/mobil2.png)
 - ![screenshot](Image/mobile3.png)
 - ![screenshot](Image/contact-form.png)
+## Live Demo
+You can view my hosted website in the link shown below.
+GitHub: [@JUPAC](https://juaryimami.github.io/)
 ## :hammer: Built With
 
 - HTML and CSS
 - FIGMA GIT GITHUB
-- VISUAL STUDIO CODE 
+- VISUAL STUDIO CODE ggg
 ## :blue_book: Learning Objectives
 
 - Understand how to parse a Figma design to create a UI.
