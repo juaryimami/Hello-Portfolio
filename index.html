@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+	<meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Juhar Seid" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" sizes="32x32" href="/Image/favicon-32x32.png" />
     <link rel="stylesheet" href="CSS/style.css" />
     <title>Portfolio | Juhar</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-199543711-1"></script>
+	<script>
+	   window.dataLayer = window.dataLayer || [];
+   
+	   function gtag() {
+		 dataLayer.push(arguments);
+	   }
+	   gtag('js', new Date());
+   
+	   gtag('config', 'UA-199543711-1');
+	</script>
   </head>
   <body>
     <div class="hero">
@@ -17,13 +29,13 @@
 				<div class="navbar__menu">
 				  <ul class="navbar__menu__ul ul">
 					<li class="navbar__menu__li">
-					  <a href="#" class="navbar__menu__link link">Portfolio</a>
+					  <a href="#works" class="navbar__menu__link link">Portfolio</a>
 					</li>
 					<li class="navbar__menu__li">
-					  <a href="#" class="navbar__menu__link link">About</a>
+					  <a href="#about" class="navbar__menu__link link">About</a>
 					</li>
 					<li class="navbar__menu__li">
-					  <a href="#" class="navbar__menu__link link">Contact</a>
+					  <a href="#contact" class="navbar__menu__link link">Contact</a>
 					</li>
 				  </ul>
 				</div>
@@ -51,7 +63,7 @@
 		</div>
       </section>
 
-	  <section class="works">
+	  <section class="works" id="works">
 		<ul class="works__cards ul grid">
 		<li class="works__card flex bg-white">
 			<div class="works__card__img">
@@ -152,7 +164,7 @@
   </ul>
 </section>
 
-	  <section class="about bg-white flex">
+	  <section class="about bg-white flex" id="about">
 		<div class="about__myself">
 			<h2 class="about__title fw-700 fz-40 lh-52 clr-n-800">About Myself</h2>
 			<p class="about__dsc fw-400 fz-16 lh-24 clr-n-600">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -196,7 +208,7 @@
 			</li>
 		</ul>
 	  </section>
-	  <footer class="contact">
+	  <footer class="contact" id="contact">
 		  <div class="contact__container">
 		 <h2 class="contact__title fw-700 fz-40 ">Contact me</h2>
 		 <p class="contact__dsc fw-500 fz-20 lh28">If you have an application you are interested in 
