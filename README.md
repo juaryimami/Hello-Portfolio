@@ -14,7 +14,7 @@ You can view my hosted website in the link shown below.
 GitHub: [@JUPAC](https://juaryimami.github.io/)
 ## :hammer: Built With
 
-- HTML and CSS
+- HTML and CSS JAVASCRIPT
 - FIGMA GIT GITHUB
 - VISUAL STUDIO CODE ggg
 ## :blue_book: Learning Objectives
@@ -26,6 +26,7 @@ GitHub: [@JUPAC](https://juaryimami.github.io/)
 - The page designed for different screen device that makes this project different from the last one
 - Understand how to use effect of animation and transition in a web page
 - Understand the importance of making your webpage accessible
+- Uderstand the effect of javascript on front end styles.
 - Experiencing pair programming
 
 ## Authors
