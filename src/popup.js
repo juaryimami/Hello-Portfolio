@@ -18,7 +18,7 @@ export const projects = [
       feature: 'FACEBOOK',
       background: 'Full Stack Dev',
       year: '2015',
-      image: 'images/desktop/multi-post-stories-project.svg',
+      image: 'Image/desktop-size-image/multi-post-stories-project.svg',
       description:
         'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
       tool1: 'html',
@@ -32,7 +32,7 @@ export const projects = [
       feature: 'FACEBOOK',
       background: 'Full Stack Dev',
       year: '2015',
-      image: 'images/desktop/facebook-360-project.svg',
+      image: 'Image/desktop-size-image/facebook-360-project.svg',
       description:
         "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
       tool1: 'html',
@@ -46,7 +46,7 @@ export const projects = [
       feature: 'Uber',
       background: 'Lead Developer',
       year: '2018',
-      image: 'images/desktop/uber-navigation-project.svg',
+      image: 'Image/desktop-size-image/uber-navigation-project.svg',
       description:
         'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
       tool1: 'html',
