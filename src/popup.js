@@ -4,7 +4,7 @@ export const projects = [
       feature: 'CANOPY',
       background: 'Back End Dev',
       year: '2015',
-      image: 'images/desktop/tonic-project-desktop.svg',
+      image: 'Image/desktop-size-image/tonic-project-desktop.svg',
       description:
         'A daily selection of privately personalized reads; no accounts or sign-ups required.',
       tool1: 'html',
