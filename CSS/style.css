@@ -470,6 +470,7 @@ body {
     background: rgba(96, 112, 255, 0.95);
     backdrop-filter: blur(10px);
     display: flex;
+    align-items: flex-start;
     top: 0;
     left: 100%;
     transition: left 0.8s, visibility 0.8s, opacity 0.4s;
@@ -478,6 +479,7 @@ body {
   }
   .navbar__menu__ul {
     flex-direction: column;
+    align-items: flex-start;
   }
   .navbar__menu__li {
     margin-bottom: 40px;
