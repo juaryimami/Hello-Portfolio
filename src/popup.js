@@ -66,7 +66,7 @@ export const projects = [
       <section class='modal'>
       <div class='modal__header flex'>
       <h2 class='project-name fw-700 fz-32 lh-44 clr-n-800'></h2>
-      <img  class='closeModal' src='images/desktop/close.svg' alt='close icon'></img>
+      <img  class='closeModal' src='Image/desktop-size-image/close.svg' alt='close icon'></img>
       </div>
       <div class='modal__feature flex'>
       <p class="project-feature fw-600 fz-13 lh-16 clr-n-600"></p>
