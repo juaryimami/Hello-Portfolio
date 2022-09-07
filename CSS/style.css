@@ -187,6 +187,12 @@ body {
   animation-duration: 1.5s;
   animation-iteration-count: 1;
 }
+.navbar__menu__ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .navbar__hamb, .navbar__close {
   cursor: pointer;
   z-index: 100;
