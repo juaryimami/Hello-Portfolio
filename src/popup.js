@@ -7,7 +7,7 @@ export const projects = [
     image: 'Image/desktop-size-image/tonic-project-desktop.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     tool1: 'html',
-    tool2:  'css',
+    tool2: 'css',
     tool3: 'javascript',
     linkLive: 'https://juaryimami.github.io/',
     linkSource: 'https://github.com/juaryimami/',
@@ -41,7 +41,7 @@ export const projects = [
   {
     name: 'Uber Navigation',
     feature: 'Uber',
-    background:'Lead Developer',
+    background: 'Lead Developer',
     year: '2018',
     image: 'Image/desktop-size-image/uber-navigation-project.svg',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
@@ -52,11 +52,11 @@ export const projects = [
     linkSource: 'https://github.com/juaryimami/',
   },
 ];
-  const startingPoint = document.querySelector('.hero');
-  export function createModal() {
-    startingPoint.insertAdjacentHTML(
-      'afterend',
-      `<div class='overlay'>
+const startingPoint = document.querySelector('.hero');
+export function createModal() {
+  startingPoint.insertAdjacentHTML(
+    'afterend',
+    `<div class='overlay'>
       <section class='modal'>
       <div class='modal__header flex'>
       <h2 class='project-name fw-700 fz-32 lh-44 clr-n-800'></h2>
@@ -88,6 +88,6 @@ export const projects = [
       </li>
       </ul>
       </section>
-      </div>`,
-    );
+    </div>`,
+  );
 }
