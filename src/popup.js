@@ -10,8 +10,8 @@ export const projects = [
       tool1: 'html',
       tool2: 'css',
       tool3: 'javascript',
-      linkLive: 'https://arthurgc.github.io/loopstudios-landing-page/',
-      linkSource: 'https://github.com/ArthurGC/loopstudios-landing-page',
+      linkLive: 'https://juaryimami.github.io/',
+      linkSource: 'https://github.com/juaryimami/',
     },
     {
       name: 'Multi-Post Stories',
@@ -24,8 +24,8 @@ export const projects = [
       tool1: 'html',
       tool2: 'css',
       tool3: 'javascript',
-      linkLive: 'https://arthurgc.github.io/crowdfunding-product-page/',
-      linkSource: 'https://github.com/ArthurGC/crowdfunding-product-page',
+      linkLive: 'https://juaryimami.github.io/',
+      linkSource: 'https://github.com/juaryimami/',
     },
     {
       name: 'Facebook 360',
@@ -38,8 +38,8 @@ export const projects = [
       tool1: 'html',
       tool2: 'css',
       tool3: 'javascript',
-      linkLive: 'https://arthurgc.github.io/rock_paper_scissors/',
-      linkSource: 'https://github.com/ArthurGC/rock_paper_scissors',
+      linkLive: 'https://juaryimami.github.io/',
+      linkSource: 'https://github.com/juaryimami/',
     },
     {
       name: 'Uber Navigation',
@@ -52,8 +52,8 @@ export const projects = [
       tool1: 'html',
       tool2: 'css',
       tool3: 'javascript',
-      linkLive: 'https://github.com/ArthurGC/portfolio',
-      linkSource: 'https://arthurgc.github.io/portfolio/',
+      linkLive: 'https://juaryimami.github.io/',
+      linkSource: 'https://github.com/juaryimami/',
     },
   ];
   

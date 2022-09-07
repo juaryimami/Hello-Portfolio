@@ -6,9 +6,9 @@ const isActiveClassExisted = (element) => element.classList.contains('active');
 
 const refreshIcon = () => {
   if (isActiveClassExisted(menu)) {
-    menuIconMobile.setAttribute('src', 'images/hamburguer-close.png');
+    menuIconMobile.setAttribute('src', 'Image/hamburguer-close.png');
   } else {
-    menuIconMobile.setAttribute('src', 'images/hamburguer.png');
+    menuIconMobile.setAttribute('src', 'Image/hamburguer.png');
   }
 };
 export const openMenu = () => {
