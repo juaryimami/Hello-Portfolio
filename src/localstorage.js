@@ -1,7 +1,4 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-unused-vars */
-/* eslint camelcase: ["error", {properties: "never"}] */
-/* eslint no-undef: ["error", {properties: "never"}] */
+/* eslint-disable */ 
 
 export const name = document.querySelector('.contact__name');
 export const email = document.querySelector('.contact__email');
