@@ -1,3 +1,7 @@
+
+/* eslint-disable linebreak-style */ 
+/* eslint-disable no-unused-vars */ 
+
 import {
   menuIconMobile, menuLinks, openMenu, closeMenu,
 } from './menu.js';
@@ -132,9 +136,9 @@ form.contact_email.addEventListener('change',setFormValues);
 form.contact_message.addEventListener('change',setFormValues);
 }
 const checlocal =()=>{
-  let name='';
-  let email='';
-  let message='';
+  let name= '';
+  let email= '';
+  let message= '';
   if(JSON.parse(localStorage.getItem('formData'))===null){
     name=null;
     email=null;

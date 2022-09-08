@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+ /* eslint-disable no-unused-vars */ 
 export const name=document.querySelector('.contact__name');
 export const email=document.querySelector('.contact__email');
 export const message=document.querySelector('#message');
