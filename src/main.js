@@ -142,12 +142,12 @@ const checlocal = () => {
     email = null;
     message = null;
   } else {
-    name = JSON.parse(localSotrage.getItem('formData')).name;
-    email = JSON.parse(localSotrage.getItem('formData')).email;
-    message = JSON.parse(localSotrage.getItem('formData')).message;
+    ({ name, email, message } = JSON.parse(localStorage.getItem('formData')));
   }
-  CONTACT_NAME.value = name;
-  CONTACT_EMAIL.value = email;
-  CONTACT_MESSAGE.value = message;
+  if (name !== 'empty' || email !== 'empty' || message !== 'empty') {
+    form.contact_name.value = name;
+    form.contact_email.value = email;
+    form.contact_message.value = message;
+  }
 };
 document.addEventListener('DOMContentLoaded', checlocal);
