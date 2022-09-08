@@ -1,11 +1,12 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable no-unused-vars */
-/*eslint camelcase: ["error", {properties: "never"}]*/
+/* eslint camelcase: ["error", {properties: "never"}] */
 
 export const name = document.querySelector('.contact__name');
 export const email = document.querySelector('.contact__email');
 export const message = document.querySelector('#message');
-function storageAvailable(type) {
+
+export function storageAvailable(type) {
   let storage;
   try {
     storage = window[type];
@@ -15,17 +16,6 @@ function storageAvailable(type) {
     return true;
   }
   catch (e) {
-    return e instanceof DOMException && (
-      // everything except Firefox
-      e.code === 22 ||
-      // Firefox
-      e.code === 1014 ||
-      // test name field too, because code might not be present
-      // everything except Firefox
-      e.name === 'QuotaExceededError' ||
-      // Firefox
-      e.name === 'NS_ERROR_DOM_QUOTA_REACHED') &&
-      // acknowledge QuotaExceededError only if there's something already stored
-      (storage && storage.length !== 0);
+    return e instanceof DOMException && ( e.code === 22 || e.code === 1014 || e.name === 'QuotaExceededError' || e.name === 'NS_ERROR_DOM_QUOTA_REACHED') && (storage && storage.length !== 0);
   }
 }

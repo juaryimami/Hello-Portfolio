@@ -1,6 +1,6 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable no-unused-vars */
-/*eslint camelcase: ["error", {properties: "never"}]*/
+/* eslint camelcase: ["error", {properties: "never"}] */
 
 import {
   menuIconMobile, menuLinks, openMenu, closeMenu,
@@ -13,7 +13,7 @@ import {
   isItUppercase, email, form, error,
 } from './validation.js';
 import {
-  storageAvailable, name as contact__name, email as contact__email, message as contact_message
+  storageAvailable, name as CONTACT_NAME, email as CONTACT_EMAIL, message as CONTACT_MESSAGE,
 } from './localstorage.js';
 
 menuIconMobile.addEventListener('click', openMenu);
@@ -126,11 +126,11 @@ if (storageAvailable('localStorage')) {
     const formData = {
       name: form.contact_name.value,
       email: form.contact_email.value,
-      message: form.contact_message.value
+      message: form.contact_message.value,
     };
     localStorage.setItem('formData', JSON.stringify(formData));
 
-  }
+  };
   form.contact_name.addEventListener('change', setFormValues);
   form.contact_email.addEventListener('change', setFormValues);
   form.contact_message.addEventListener('change', setFormValues);
@@ -148,8 +148,8 @@ const checlocal = () => {
     email = JSON.parse(localSotrage.getItem('formData')).email;
     message = JSON.parse(localSotrage.getItem('formData')).message;
   }
-  contact__name.value = name;
-  contact__email.value = email;
-  contact_message.value = message;
-}
+  CONTACT_NAME.value = name;
+  CONTACT_EMAIL.value = email;
+  CONTACT_MESSAGE.value = message;
+};
 document.addEventListener('DOMContentLoaded', checlocal);
