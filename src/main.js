@@ -1,6 +1,8 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable no-unused-vars */
+/* eslint-disable undef */
 /* eslint camelcase: ["error", {properties: "never"}] */
+/* eslint no-undef: ["error", {properties: "never"}] */
 
 import {
   menuIconMobile, menuLinks, openMenu, closeMenu,
@@ -129,8 +131,8 @@ if (storageAvailable('localStorage')) {
       message: form.contact_message.value,
     };
     localStorage.setItem('formData', JSON.stringify(formData));
-
   };
+
   form.contact_name.addEventListener('change', setFormValues);
   form.contact_email.addEventListener('change', setFormValues);
   form.contact_message.addEventListener('change', setFormValues);
