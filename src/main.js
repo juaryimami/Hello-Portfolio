@@ -132,7 +132,7 @@ if (storageAvailable('localStorage')) {
   form.contact_name.addEventListener('change', setFormValues);
   form.contact_email.addEventListener('change', setFormValues);
   form.contact_message.addEventListener('change', setFormValues);
-}
+
 const checlocal = () => {
   let name = '';
   let email = '';
@@ -150,4 +150,7 @@ const checlocal = () => {
     form.contact_message.value = message;
   }
 };
-document.addEventListener('DOMContentLoaded', checlocal);
+document.addEventListener('DOMContentLoaded', () => {
+  checlocal();
+});
+}
